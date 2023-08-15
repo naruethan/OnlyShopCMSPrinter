@@ -12,7 +12,7 @@ module.exports = (app) => {
     // encoding is optional
     console.log(device);
     const printer = new escpos.Printer(device, options);
-
+    ///trestset
     device.open(function (error) {
       printer
         .font("a")
